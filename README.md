@@ -19,6 +19,7 @@ I have used atomic architecture in this project. Everything inside the `componen
 1. Definitely the UI & UX. The given screenshot and provided images do not much.
 2. Carousel should have a skeleton loading section if the API is providing all the data at a time. If API supports pagination, should make lazy API calls and use lazy image loading.
 3. For timer delays, a global hook instead of logic inside the component. 
+4. More controlls on the carousel like next, previous etc. 
 
 PS: I have commented on the code for possible ideal solutions. 
 
