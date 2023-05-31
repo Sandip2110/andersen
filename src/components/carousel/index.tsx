@@ -62,6 +62,7 @@ export default function Carousel({
         .map((item, index) => {
           return (
             <div
+              data-testid={`carousel-${index}`}
               className={`mt-3 col-sm-${12 / column} carousel-card`}
               style={{ backgroundImage: `url(${item.image})` }}
               key={index}
