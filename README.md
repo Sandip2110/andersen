@@ -1,3 +1,6 @@
+![Uploading Screenshot 2023-06-01 at 12.49.11 AM.png…]()
+
+
 ### Project Overview
 
 This project shows 8 items at a time on screen and infinitely loops. Onclick of any item, the information about the item is displayed. 
