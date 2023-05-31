@@ -14,13 +14,15 @@ I have used atomic architecture in this project. Everything inside the `componen
 2. Tried to keep components as generic as possible as per the provided information. 
 3. Didn't use any global state management system, as it was not required for this project. 
 4. I have focused more on how to structure a project, good practices, typescript, logic. 
+5. Added few sample test cases inside `layout`. Tese test cases are regarding the logo of header. 
 
 ### With time what could be improved as a full fledge project 
 1. Definitely the UI & UX. The given screenshot and provided images do not much.
 2. Carousel should have a skeleton loading section if the API is providing all the data at a time. If API supports pagination, should make lazy API calls and use lazy image loading.
 3. For timer delays, a global hook instead of logic inside the component. 
 4. More controlls on the carousel like next, previous etc. 
-5. ** Variable namings could have been much better
+5. ** Variable namings could have been much better.
+6. More test cases. 
 
 PS: I have commented on the code for possible ideal solutions. 
 
