@@ -14,7 +14,7 @@ I have used atomic architecture in this project. Everything inside the `componen
 2. Tried to keep components as generic as possible as per the provided information. 
 3. Didn't use any global state management system, as it was not required for this project. 
 4. I have focused more on how to structure a project, good practices, typescript, logic. 
-5. Added few sample test cases inside `layout`. Tese test cases are regarding the logo of header. 
+5. Added few sample test cases inside `layout` and `components/carousel` . Tese test cases are regarding the logo of header. 
 
 ### With time what could be improved as a full fledge project 
 1. Definitely the UI & UX. The given screenshot and provided images do not much.
