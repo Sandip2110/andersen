@@ -21,3 +21,6 @@ I have used atomic architecture in this project. Everything inside the `componen
 3. For timer delays, a global hook instead of logic inside the component. 
 
 PS: I have commented on the code for possible ideal solutions. 
+
+<img width="330" alt="Screenshot 2023-06-01 at 12 50 52 AM" src="https://github.com/Sandip2110/andersen/assets/8651386/edae17d1-ae42-4eea-ad83-ac7c7e04ddcc">
+<img width="1245" alt="Screenshot 2023-06-01 at 12 51 10 AM" src="https://github.com/Sandip2110/andersen/assets/8651386/b856eb8c-bba3-4f0e-92af-db79983300db">
