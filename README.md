@@ -1,46 +1,20 @@
-# Getting Started with Create React App
+### Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project shows 8 items at a time on screen and infinitely loops. Onclick of any item, the information about the item is displayed. 
 
-## Available Scripts
+### Folder structure
 
-In the project directory, you can run:
+I have used atomic architecture in this project. Everything inside the `component` folder is a global component which can be plug into any component. Containers contain every individual pages. Tried to add some glimps of the folder structure I typically recommend. 
 
-### `npm start`
+### Comments
+1. I haven't used any library to achieve the carousel as this will unnecessarily increase the bundle size for such basic use case. 
+2. Tried to keep components as generic as possible as per the provided information. 
+3. Didn't use any global state management system, as it was not required for this project. 
+4. I have focused more on how to structure a project, good practices, typescript, logic. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### With time what could be improved as a full fledge project 
+1. Definitely the UI & UX. The given screenshot and provided images do not much.
+2. Carousel should have a skeleton loading section if the API is providing all the data at a time. If API supports pagination, should make lazy API calls and use lazy image loading.
+3. For timer delays, a global hook instead of logic inside the component. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+PS: I have commented on the code for possible ideal solutions. 
