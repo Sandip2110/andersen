@@ -15,7 +15,7 @@ interface CarouselProps {
   speedInMs?: number;
   column: 1 | 2 | 3 | 4;
   showMaxAtATime: number;
-  onItemClick: (item: CarouselItem) => void;
+  onItemClick?: (item: CarouselItem) => void;
   items: CarouselItem[];
 }
 
@@ -65,7 +65,7 @@ export default function Carousel({
               className={`mt-3 col-sm-${12 / column} carousel-card`}
               style={{ backgroundImage: `url(${item.image})` }}
               key={index}
-              onClick={() => onItemClick(item)}
+              onClick={() => onItemClick?.(item)}
             >
               <span className="carousel-card__text">{item.title}</span>
             </div>
